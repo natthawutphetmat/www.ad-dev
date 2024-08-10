@@ -18,6 +18,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <meta name="robots" content="index" />
+      <link rel="canonical" href="https://ad-dev.net" />
         <link rel="icon" href="/img/favicon.ico" />
         <link rel="preload" href="/path/to/image.webp" as="image" />
         <meta name="twitter:image" content="https://ad-dev.net/img/ads.webp" />
