@@ -8,45 +8,46 @@ import Cass from './components_img/cass';
 import Example from './components_img/Example';
 import Fbimg from './facebook/fbimg';
 import Itemgg from './google/itemgg';
- 
+import Post from './post/page' 
 import Script from 'next/script';
 
 export default function Page() {
   return (
     <>
-      <Script type="application/ld+json" id="structured-data">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "AdsDev",
-            "alternateName": "EC",
-            "url": "https://ad-dev.net/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://ad-dev.net/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}
-      </Script>
+     <Script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "myadsdeps",
+      "alternateName": "EC",
+      "url": "https://www.ad-dev.net/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.ad-dev.net/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  `}
+</Script>
+
 
       <title>รับทำโฆษณาออนไลน์ Googleสายเทา, Facebookสายเทา, คอร์สเรียนโฆษณาสายเทา สายเทาเพื่อธุรกิจของคุณ</title>
         <meta name="description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ." />
         <meta name="keywords" content="ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,รับยิงแอด,ads,รับทำโฆษณา,รับโฆษณา,Facebook,การตลาด,โฆษณาออนไลน์,เว็บไซต์,ตลาดเป้าหมาย,โฆษณาบนโซเชียลมีเดีย,Google Ads,การโฆษณาบน Facebook,การโฆษณาออนไลน์บนสื่อต่าง ๆ,การตลาดออนไลน์,การโปรโมท,โฆษณา Facebook,การโฆษณา Google,การโฆษณาสินค้า,การโฆษณาโปรโมชั่น,วิธีการโฆษณา,ความสำเร็จในการตลาด,บริการโฆษณา,การตลาดออนไลน์บน Facebook,การโฆษณาบนเว็บ,การวางแผนโฆษณา,รับจ้างโฆษณา ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,ads,สอนยิงแอด,สอนยิงแอด Conversion,สอนยิงแอดสายเทา,ยิงแอดสายเทา,ยิงโฆษณาสายเทา,รับทำ seo สายเทา,รับทำ seo สายดำ,แอดสายเทา,รับยิงแอดสายเทา,กูเกิ้ลแอดสายเทา,รับทํา google ads,สายเทา seo สายเทา,ตลาดสีเทา,แอดสีเทา,adsสีเทา,กราฟฟิกสายเทา,ยิงแอดเทา,รับยิงแอดfacebookสายเทา,รูปยิงแอดสายเทา,รับจ้างสายเทา,รับโฆษณาสายเทา" />
         <meta property="og:title" content="รับทำโฆษณาออนไลน์ Google, Facebook Ads สายเทาเพื่อธุรกิจของคุณ"/>
         <meta property="og:description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ." />
-        <meta property="og:image" content="https://ad-dev.net/img/ads.webp" />
-        <meta property="og:url" content="https://ad-dev.net/" />
+        <meta property="og:image" content="https://www.ad-dev.net/img/ads.webp" />
+        <meta property="og:url" content="https://www.ad-dev.net/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="รับทำโฆษณาออนไลน์ Drak"/>
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="รับทำโฆษณาออนไลน์ Google, Facebook Ads สายเทาเพื่อธุรกิจของคุณ" />
         <meta property="twitter:description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ" />
-        <meta property="twitter:image" content="https://ad-dev.net/img/ads.webp"/>
-        <meta property="twitter:url" content="https://ad-dev.net/" />
+        <meta property="twitter:image" content="https://www.ad-dev.net/img/ads.webp"/>
+        <meta property="twitter:url" content="https://www.ad-dev.net/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://ad-dev.net/" />
+        <link rel="canonical" href="https://www.ad-dev.net/" />
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
       <Link href='/line' target='_blank' className="bounce">
@@ -163,6 +164,8 @@ export default function Page() {
           <About />
           <Fbimg />
           <Itemgg />
+          <Post />
+
 
           <section className='about' id='about'></section>
         </section>

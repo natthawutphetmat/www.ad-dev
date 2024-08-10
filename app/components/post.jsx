@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css'; // นำเข้า Bootstrap
 import Image from 'next/image';
 
 function App() {

@@ -1,9 +1,12 @@
+// next.config.js
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['apipost.ad-dev.net'],
+      domains: ['post-api.ad-dev.net'],
     },
   }
   
   module.exports = nextConfig
   
+

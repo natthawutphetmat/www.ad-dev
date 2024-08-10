@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <meta name="robots" content="index" />
-      <link rel="canonical" href="https://ad-dev.net" />
+      <link rel="canonical" href="https://www.ad-dev.net" />
         <link rel="icon" href="/img/favicon.ico" />
         <link rel="preload" href="/path/to/image.webp" as="image" />
-        <meta name="twitter:image" content="https://ad-dev.net/img/ads.webp" />
+        <meta name="twitter:image" content="https://www.ad-dev.net/img/ads.webp" />
         <meta name="author" content="ad-dev" />
         <GoogleTagManager gtmId="GTM-5HR83NGV" />
       </head>
